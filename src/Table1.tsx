@@ -1,3 +1,5 @@
+import './App.css'
+
 function Table1() {
     return (
         <table>

@@ -1,3 +1,5 @@
+import './App.css'
+
 function Form1() {
     return (
         <>
@@ -55,7 +57,7 @@ function Form1() {
 
 
                 <label htmlFor="comment">Any questions or comments? Write them here!</label>
-                <textarea id="comment" rows="4" cols="50"></textarea>
+                <textarea id="comment" rows={4} cols={50}></textarea>
                 <br/>
                 <br/>
 
