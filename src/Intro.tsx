@@ -1,6 +1,6 @@
 import './App.css'
 
-function Intro(name1: string, name2: string) {
+function Intro({ name1, name2}: { name1: string, name2: string }) {
     return (
         <>
             <p>

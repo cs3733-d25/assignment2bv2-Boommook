@@ -1,4 +1,7 @@
 import './App.css'
+import List1 from "./List1.tsx";
+import Form1 from "./Form1.tsx"
+import Table1 from "./Table1.tsx"
 
 function Hobby1() {
     return (
@@ -14,6 +17,10 @@ function Hobby1() {
                 The team with possesion of the disc is trying to score, while the defending team is trying to catch the disc, force it to hit the ground,
                 or stall of which cause a turnover and change of possesion.
             </p>
+
+            <List1 />
+            <Table1 />
+            <Form1 />
         </>
     )
 }
